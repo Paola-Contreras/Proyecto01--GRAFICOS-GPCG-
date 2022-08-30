@@ -27,7 +27,7 @@ rend.glLoadModel("model/indoor plant_02.obj",
                  scale = V3(0.25, 0.25, 0.25))
 
 #Chair
-rend.active_shader = s.gourad
+rend.active_shader = s.flat
 rend.active_texture = Texture("textures/Chair_Base_Color.bmp")
 rend.glLoadModel("model/Chair.obj",
                   translate = V3(0.3, 6.4, 0),
@@ -36,7 +36,7 @@ rend.glLoadModel("model/Chair.obj",
 
 
 #Couch
-rend.active_shader = s.flat
+rend.active_shader = s.zebra
 rend.active_texture = Texture("textures/Couch_Base_Color.bmp")
 rend.glLoadModel("model/Couch.obj",
                   translate = V3(-0.1, 6.3, -0.3),
@@ -57,7 +57,7 @@ rend.glLoadModel("model/paw.obj",
 rend.active_texture = Texture("textures/Miniature_cat.bmp")
 #rend.normal_map = Texture("textures/Miniature_cat_normal.bmp")
 
-rend.active_shader = s.flat
+rend.active_shader = s.gourad
 rend.glLoadModel("model/Miniature_cat_SF.obj",
                   translate = V3(0, 6.28, 0),
                   rotate = V3(0, 50, 0),
