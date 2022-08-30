@@ -1,1 +1,1 @@
-# Proyecto01--GRAFICOS-GPCG-
+# Lab01--GRAFICOS-GPCG
