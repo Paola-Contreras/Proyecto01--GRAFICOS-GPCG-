@@ -12,7 +12,7 @@ h = 600
 
 rend = Renderer(w, h)
 
-rend.background = Texture("textures/DDG.bmp")
+rend.background = Texture("textures/DDG (1).bmp")
 rend.glClearBackground()
 #Medium
 rend.glLookAt(V3(2,5,-3),V3(0,7.9,1))
